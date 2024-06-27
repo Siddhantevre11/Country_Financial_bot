@@ -1,0 +1,83 @@
+Default Welcome Intent
+Text response:
+
+Hello, how can I help you today? You can ask about your policy, file a claim, or check the status of a claim.
+Good day! What can I assist you with? You can inquire about policy details, claims, or payment information.
+Greetings! How can I assist? You can ask about filing a claim, policy details, or payment status.
+Default Fallback Intent
+Text response:
+
+I didn't understand that. You can ask about your policy, claims, or payments. For example, you can say "Check my policy details" or "File a new claim."
+Sorry, I didn't get that. Please ask about policy details, claims, or payments. You can say things like "What is my policy coverage?" or "How do I file a claim?"
+Intent: new.policy
+User Input Examples:
+
+I want to know my policy details
+Check my policy details
+Show me my policy coverage
+Text Response:
+
+Sure, I can help with that. Please provide your policy number.
+Definitely, I can check that for you. What is your policy number?
+Intent: file.claim
+User Input Examples:
+
+I need to file a new claim
+Start a new claim
+How do I file a claim?
+Text Response:
+
+I can help you file a claim. Please provide details of the incident and your policy number.
+Sure, let's start filing your claim. Can you describe the incident and provide your policy number?
+Intent: claim.status
+User Input Examples:
+
+Check the status of my claim
+Track my claim
+How is my claim progressing?
+Text Response:
+
+Sure, I can check the status for you. What is your claim number?
+Definitely, please provide your claim number to proceed.
+Intent: payment.inquiry
+User Input Examples:
+
+Check my payment status
+When is my next payment due?
+How much do I owe?
+Text Response:
+
+I can help with your payment inquiries. Please provide your policy number.
+Sure, I can check that for you. What is your policy number?
+Intent: faq
+User Input Examples:
+
+What is the claims process?
+How do I update my policy?
+What does my policy cover?
+Text Response:
+
+I can answer that. Our claims process involves [brief explanation of the claims process]. For more details, visit [link to claims process page].
+To update your policy, you can [brief explanation of the process]. For more information, visit [link to policy update page].
+Your policy covers [brief explanation of coverage]. You can find more details at [link to coverage page].
+Intent: contact.agent
+User Input Examples:
+
+I want to talk to an agent
+Connect me to a representative
+I need human assistance
+Text Response:
+
+I can connect you to an agent. Please hold while I transfer you.
+Sure, let me connect you to a representative. One moment, please.
+Intent: feedback
+User Input Examples:
+
+I have feedback
+I want to give a suggestion
+I have a complaint
+Text Response:
+
+We value your feedback. Please provide details of your suggestion or complaint.
+Thank you for your feedback. Could you please share more details?
+Implementation Tips
